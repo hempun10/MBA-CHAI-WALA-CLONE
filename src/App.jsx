@@ -6,11 +6,11 @@ import data from "./data/data.json";
 import "./Styles/App.scss";
 import "./Styles/intro.scss";
 import "./Styles/section.scss";
+import "./Styles/footer.scss";
+import "./Styles/mediaQuery.scss";
 
-const yellow = "#fff100",
-  pink = "#ed1e79",
-  white = "#fff",
-  brown = "#6d3d0f";
+const yellow = "#fff100";
+const pink = "#ed1e79";
 
 const topics = Object.values(data).map((topic, index) => (
   <Section

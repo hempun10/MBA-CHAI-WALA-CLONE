@@ -28,6 +28,7 @@
     transform-origin: bottom;
     transition: transform 0.5s;
     letter-spacing: 2px;
+    border-radius: 7px;
 
     &:hover {
       transform: skewX(-10deg);
